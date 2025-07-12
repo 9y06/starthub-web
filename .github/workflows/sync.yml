@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Add upstream remote
-        run: git remote add upstream https://github.com/JinInSaDaeCheonMyeong/startHub-web.git
+        run: git remote add upstream https://github.com/JinInSaDaeCheonMyeong/starthub-web.git
 
       - name: Fetch upstream
         run: git fetch upstream
